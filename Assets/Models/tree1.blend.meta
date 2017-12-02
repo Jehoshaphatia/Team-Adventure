@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 03ae7ddaa11a5c845bab361e196c33eb
-timeCreated: 1512174491
+timeCreated: 1512175785
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -60,7 +60,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
