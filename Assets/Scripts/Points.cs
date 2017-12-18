@@ -19,6 +19,7 @@ public class Points : MonoBehaviour {
 	void Update () {
 
 		pointstext.text = ("Points: " + player.points);
+	
 		
 	}
 }

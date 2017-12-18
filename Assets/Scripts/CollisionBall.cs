@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class CollisionBall : MonoBehaviour {
 
-	// Use this for initialization
-
 	Player player;
 	public int  points;
+	public GameObject ball;
 
 	void Start () {
 		player = FindObjectOfType<Player> ();
@@ -28,6 +27,7 @@ public class CollisionBall : MonoBehaviour {
 			
 			player.points += points;
 			Destroy(gameObject);
+			Instantiate (ball);
 
 		}
 			

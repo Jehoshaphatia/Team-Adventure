@@ -5,17 +5,24 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
 	public int points; 
+	public GameObject Win;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
+
 	void Update () {
 
+		if (points == 10) {
+
+			Win.SetActive(true);
+		}
+	}
+		
+
+	void start () {
+		
+
 
 	}
+
 
 
 }
